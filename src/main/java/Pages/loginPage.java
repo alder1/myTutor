@@ -13,6 +13,8 @@ public class loginPage {
         PageFactory.initElements(driver, this);
 
     }
+    @FindBy(xpath = ".//*[@id='allcontent']/div[2]/div/h1")
+    private WebElement ParentLogin;
 
     @FindBy(xpath = ".//*[@id='dismisscookieform:setDismissedCookieWarning']/img")
     private WebElement okCookie;
@@ -31,6 +33,11 @@ public class loginPage {
 
     @FindBy(id = "loginform:login")
     private WebElement Login2;
+
+
+    public boolean AssertParentLoginPage(){
+        return ParentLogin.isDisplayed();
+    }
 
     public void Continue() {
         okCookie.click();

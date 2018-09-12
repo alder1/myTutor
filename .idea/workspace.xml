@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f64652d-1415-412f-8c7d-bab68db7ed33" name="Default" comment="" />
+    <list default="true" id="5f64652d-1415-412f-8c7d-bab68db7ed33" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/tutorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/tutorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +40,8 @@
       <file leaf-file-name="parentFormTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="1129">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +52,8 @@
       <file leaf-file-name="landingPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/landingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#503#504#0" expanded="true" />
@@ -61,9 +67,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/loginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
                 <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1090#1091#0" expanded="true" />
                 <element signature="e#1225#1226#0" expanded="true" />
@@ -76,8 +84,8 @@
       <file leaf-file-name="WelcomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="415">
+              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#500#501#0" expanded="true" />
@@ -90,12 +98,10 @@
       <file leaf-file-name="tutorPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/tutorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+            <state relative-caret-position="551">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +124,9 @@
       <dir>C:\Users\Alder Amu\IdeaProjects\comMyTutor</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,9 +140,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/parentFormPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definition/parentForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/landingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/parentForm.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/tutorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java" />
       </list>
@@ -147,8 +156,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1982" />
-    <option name="y" value="12" />
+    <option name="x" value="1887" />
+    <option name="y" value="32" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -157,8 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,6 +249,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -261,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: parentForm (3)">
+  <component name="RunManager" selected="Cucumber java.Feature: parentForm (4)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -288,6 +297,17 @@
       </extension>
     </configuration>
     <configuration name="Feature: parentForm (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="comMyTutor" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Feature: parentForm (4)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="comMyTutor" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -352,9 +372,11 @@
       <item itemvalue="Cucumber java.Feature: parentForm (1)" />
       <item itemvalue="Cucumber java.Feature: parentForm (2)" />
       <item itemvalue="Cucumber java.Feature: parentForm (3)" />
+      <item itemvalue="Cucumber java.Feature: parentForm (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: parentForm (4)" />
         <item itemvalue="Cucumber java.Feature: parentForm (3)" />
         <item itemvalue="Cucumber java.Feature: parentForm (2)" />
         <item itemvalue="Cucumber java.Feature: parentForm (1)" />
@@ -376,9 +398,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__parentForm_(1) - 2018.09.09 at 23h 04m 12s.xml">
-      <configuration name="Feature: parentForm (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__parentForm_(1) - 2018.09.09 at 23h 41m 04s.xml">
       <configuration name="Feature: parentForm (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -406,9 +425,13 @@
     <history-entry file="Feature__parentForm_(3) - 2018.09.10 at 17h 38m 29s.xml">
       <configuration name="Feature: parentForm (3)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__parentForm_(4) - 2018.09.12 at 20h 12m 24s.xml">
+      <configuration name="Feature: parentForm (4)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1867" y="42" width="1551" height="839" extended-state="0" />
+    <frame x="1894" y="26" width="1552" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -418,13 +441,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4883382" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48762736" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21059692" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -436,6 +458,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
@@ -443,12 +466,12 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.0" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1998698" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -458,7 +481,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.26694915" />
@@ -475,6 +498,73 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/parentForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/landingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/loginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/tutorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -517,6 +607,8 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1225#1226#0" expanded="true" />
@@ -543,8 +635,6 @@
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,6 +701,8 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1225#1226#0" expanded="true" />
@@ -637,8 +729,6 @@
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,6 +775,8 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1225#1226#0" expanded="true" />
@@ -711,8 +803,6 @@
           <caret line="53" column="5" selection-start-line="52" selection-start-column="50" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,6 +839,8 @@
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1225#1226#0" expanded="true" />
@@ -775,8 +867,6 @@
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,39 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/parentForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/landingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#503#504#0" expanded="true" />
@@ -883,12 +944,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/parentForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/loginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1225#1226#0" expanded="true" />
@@ -897,14 +967,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/tutorPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definition/parentFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state relative-caret-position="1129">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/tutorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

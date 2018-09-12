@@ -1,5 +1,6 @@
 package Pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +19,9 @@ public class tutorPage {
 
     }
 
+    @FindBy(xpath = ".//*[@id='vTF']/div[1]/h1")
+    private WebElement OnlineTutorsRecommended;
+
     @FindBy(id = "inputSubject:input")
     private WebElement Subject;
 
@@ -28,20 +32,14 @@ public class tutorPage {
     @FindBy(xpath = "//input[@type='checkbox']")
     private WebElement Gender;
 
-    @FindBy(css = ".//*[@id='tutorList']/a[1]/div/div[2]/div/p[1]']")
-    private WebElement Tutor;
 
-    @FindBy(xpath = ".//*[@id='allcontent']/div/div/div/div/div[2]/div[2]/div[1]/div/div[3]/h4")
-    private WebElement confirmProfile;
 
-    @FindBy(id = "fullcontactform:msg:input")
-    private WebElement Message;
-
-    @FindBy(id = "fullcontactform:sendMessageFromTutorProfile")
-    private WebElement SendMessage;
-
-    @FindBy(id = "msgdlg_Label")
-    private WebElement verifySent;
+    public void AssertTutorPage() {
+        System.out.println(OnlineTutorsRecommended.getText());
+        String expectedResult = "Here are 7 online tutors we recommend working with";
+        String actualResult = OnlineTutorsRecommended.getText();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 
     public void searchSubject() {
         Select sub = new Select(Subject);
@@ -53,38 +51,13 @@ public class tutorPage {
         lev.selectByValue("TutoringLevelType[1]");
     }
 
-    public void selectGender(){
-        if(!driver.findElement(By.id("gender:input:1")).isSelected()){
+    public void selectGender() {
+        if (!driver.findElement(By.id("gender:input:1")).isSelected()) {
 
             driver.findElement(By.id("gender:input:1")).click();
         }
 
 
-        }
-        public void selectTutor(){
-        Tutor.click();
-        }
-        public boolean verifyProfile(){
-        return confirmProfile.isDisplayed();
-        }
-        public void InputMessage(String myMessage) {
-            Message.clear();
-            Message.sendKeys(myMessage);
-
-        }
-        public void MessageSend() {
-            SendMessage.click();
-
-        }
-        public boolean verifySentMessge(){
-        return verifySent.isDisplayed();
-
-
-
-
-        }
-
-        }
-
-
+    }
+}
 

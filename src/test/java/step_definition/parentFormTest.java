@@ -19,18 +19,17 @@ public class parentFormTest extends driverInstance {
 
     @Given("^I am on the MyTutor landing page$")
     public void i_am_on_the_MyTutor_landing_page() throws Throwable {
-        Thread.sleep(5000);
         System.out.println("This is a test to find a tutor");
     }
 
     @When("^I click on login$")
     public void i_click_on_login() throws Throwable {
-        Thread.sleep(5000);
         lp.clickLoginButton();
     }
 
     @When("^I select the parent button$")
     public void i_select_the_parent_button() throws Throwable {
+        log.AssertParentLoginPage();
         log.selectParent();
     }
 
@@ -47,11 +46,13 @@ public class parentFormTest extends driverInstance {
 
     @When("^I select on Find A tutor$")
     public void i_select_on_Find_A_tutor() throws Throwable {
+        wp.AssertWelcomeMessage();
         wp.selectFindTutor();
     }
 
     @When("^I select the subject of choice$")
     public void i_select_the_subject_of_choice() throws Throwable {
+        tp.AssertTutorPage();
         tp.searchSubject();
     }
 
@@ -67,25 +68,24 @@ public class parentFormTest extends driverInstance {
 
     @When("^I select any of the displayed options$")
     public void i_select_any_of_the_displayed_options() throws Throwable {
-      tp.selectTutor();
+
     }
 
     @When("^I select and write in their message body$")
     public void i_select_and_write_in_their_message_body() throws Throwable {
-       tp.verifyProfile();
-       tp.InputMessage("Hello Luke");
+
     }
 
 
     @When("^I click on Send Message$")
     public void i_click_on_Send_Message() throws Throwable {
-    tp.MessageSend();
+
 
     }
 
     @Then("^the Message sent icon should be displayed$")
     public void the_Message_sent_icon_should_be_displayed() throws Throwable {
-        tp.verifySentMessge();
+
     }
 
 
